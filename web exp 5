@@ -15,8 +15,35 @@
 <option>Day</option>
 <option>1</option>
 <option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
 <option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
 <option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
 </select>
 <select>
 <option>Month</option>
@@ -24,12 +51,28 @@
 <option>Feb</option>
 <option>March</option>
 <option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
 </select>
 <select>
 <option>Year</option>
+<option>1995</option>
+<option>1996</option>
+<option>1997</option>
+<option>1998</option>
 <option>1999</option>
 <option>2000</option>
+<option>2001</option>
+<option>2002</option>
 <option>2003</option>
+<option>2004</option>
+<option>2005</option>
 </select>
 </td>
 </tr>
@@ -43,7 +86,7 @@
 <td>Male<input type="radio"name="gender"value="male">Female<input type="radio" name="gender" value="female">
 </td></tr>
 <tr><td>Address</td>
-<td><text area rows="5" cols="40"></textarea>
+<td><textarea rows="5" cols="40"></textarea>
 </td>
 </tr>
 <tr><td>CITY</td>
@@ -56,11 +99,11 @@
 <tr><td>COUNTRY</td>
 <td><input type="text" name="country" value="india"></td></tr>
 <tr><td>HOBBIES</td>
-<td>DRAWING<input type="text" name="CHECKBOX" name="drawing" value="on">
-SINGING<input type="text" name="CHECKBOX" name="Singing" value="on">
-DANCING<input type="text" name="CHECKBOX" name="dancing" value="on">
-SKETCHING<input type="text" name="CHECKBOX" name="sketching" value="on">
-<br>others <input type="text" name="CHECKBOX" name="others" value="on">
+<td>DRAWING<input type="checkbox" name="CHECKBOX" name="drawing" value="on">
+SINGING<input type="checkbox" name="CHECKBOX" name="Singing" value="on">
+DANCING<input type="checkbox" name="CHECKBOX" name="dancing" value="on">
+SKETCHING<input type="checkbox" name="CHECKBOX" name="sketching" value="on">
+<br>others <input type="checkbox" name="CHECKBOX" name="others" value="on">
 <input type="text" name="hobbies">
 </td></tr>
 <tr rowspan="5"><td>QUALIFICATION</td>
@@ -115,10 +158,11 @@ MTECH<input type="radio" name="course"value="MTECH">
 MSC<input type="radio" name="course"value="MSC">
 PHD<input type="radio" name="course"value="PHD"> 
 <td></tr>
-<tr><td>TYPE YOUR PHOTO</td>
+<tr><td>TYPE YOUR PASSWORD</td>
 <td><input type="password" name="pwd"(max 30 characters)</td>
 </tr>
-<tr><td>upload your photo</td>
+
+<tr><td>UPLOAD YOUR PHOTO:</td>
 <td><inut type="file"></td></tr>
 <tr><td>Date of tc</td>
 <td><input type="date" name="date"></td></tr>
@@ -129,5 +173,3 @@ PHD<input type="radio" name="course"value="PHD">
 </center>
 </body>
 </html>
-
-
